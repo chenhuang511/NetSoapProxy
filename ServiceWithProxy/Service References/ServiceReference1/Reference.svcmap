@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="9cbcfd68-3b33-43dc-b8e2-a1e9692d3a0b" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://gw.softdreams.vn:6161/Services.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Services.xsd" MetadataType="Schema" ID="8edbb48d-8cad-4a0f-995d-11595a357a53" SourceId="1" SourceUrl="http://gw.softdreams.vn:6161/Services.svc?xsd=xsd0" />
+    <MetadataFile FileName="Services.wsdl" MetadataType="Wsdl" ID="e0e938b8-acb3-46b2-8528-ff9557e899a6" SourceId="1" SourceUrl="http://gw.softdreams.vn:6161/Services.svc?wsdl" />
+    <MetadataFile FileName="Services1.xsd" MetadataType="Schema" ID="9996175d-2706-4ca3-a797-503d1d34ef91" SourceId="1" SourceUrl="http://gw.softdreams.vn:6161/Services.svc?xsd=xsd1" />
+    <MetadataFile FileName="Services2.xsd" MetadataType="Schema" ID="83a5a366-5d6c-4909-89e9-3772c0cd873e" SourceId="1" SourceUrl="http://gw.softdreams.vn:6161/Services.svc?xsd=xsd2" />
+    <MetadataFile FileName="Services.disco" MetadataType="Disco" ID="25fca723-e2f3-48e4-86c4-2f2f5362e356" SourceId="1" SourceUrl="http://gw.softdreams.vn:6161/Services.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
